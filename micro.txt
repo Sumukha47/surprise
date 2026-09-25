@@ -1,0 +1,11 @@
+to list the branchees present locally -> git branch or git branch --list
+to create a branch -> git branch branch_name
+to switch to a branch ->git switch branch_name or git checkout -b branch_name
+to create and switch simultaneously -> git checkout -b branch_name
+to push any branch to a remote repo ->git push alias_name branch_name
+to list branches present remotely -> git branch -r
+to list branches present locally and remotely -> git branch -a
+to pull a branch from remote repo ->git pull alias_name and branch_name
+to delete branches locally -> git branch -d branch_name or git branch -D branch_name
+to delete branches remotely -> git push alias_name -d branch_name
+to rename a branch -> git branch -m old_branch_name new_branch_name 

@@ -1,0 +1,13 @@
+Work flow of Git
+1.Initialization  command: git init
+2.Configuration command : for user_name : git config user.name user_name
+			  for user_email: git config user.email user_email
+3.Add  command: git add file_name 
+		git add file_1 file_2 file_3 ....
+		git add .
+	to add files with particular extension : git add *.extension
+4.Commit command: git config -m "Reason or changes" 
+5.Establishing the connection command : git remote add alias_name remote_url
+6.Push command :git push alias_name master/main
+7.Pull command :got pull alias_name master/main
+
