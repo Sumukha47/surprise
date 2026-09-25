@@ -1,0 +1,11 @@
+1) light weighted tags: name provided for the commits
+2)annoted tags : contains some extra details such as; name date message
+
+commands :
+1)to list the tags:git tag
+2)to create a tag: git tag ag name
+3)to list the tags whiach matches a particular pattern:git tag -1 "version name
+4)to push a particular tag git push aparticular tag git push origin --tags
+5)to pull all the tags at once:git pull origin --tags
+6)to delete the tags locally: git tag -d tag -d tagname
+to delete the tags remotely: git push origin --delete tag tag name

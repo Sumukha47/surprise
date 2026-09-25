@@ -1,0 +1,21 @@
+to list branches present locally : git branch or git branch__list
+to create a branch :git branch branch name
+ to switch to a branch git switch barnch name 
+too create and switch to a branch to a remote repo:git push alias_name branch name
+ to push any branch to a remote repo: git push alias_name branch_name 
+git push origin master/main
+
+to list the branches present remotely:git branch --r
+
+to list the branches present locally as well as remotely: git branch -a
+
+to pull a branch from remote repo: git pull alias_name branch name git pull origin master main
+
+
+to delete the branches locally: git branch _d branch name
+
+to delete the branches remotely:git push alias_name -d branch name
+
+to rename a branch:git branch -m old branch name new branch name
+
+ 

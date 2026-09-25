@@ -1,0 +1,21 @@
+1)initialize the folder git init
+2)configuration: to set username:git config "user.name"
+to set the user email:git config "user.email"
+
+3)to add particular files:git add file_name
+to add multiple files: git add file1 file2 file3...
+to add all the files:  git add file1 file2 file3....
+to add all the files ending with that particular extension:git add*extension
+to check the files present in my staging area: git status
+ 
+
+4)commit: to commiy the files present in stagng area git commit -m "any message"
+  git log
+  git log --oneline } this is used to check the commit history
+ 
+5)establish the connection: git remote add alias_name remote url
+   git remote addd origin remote_url
+
+6)push : git push origin master/main
+
+7)pull: git pull origin master/main 

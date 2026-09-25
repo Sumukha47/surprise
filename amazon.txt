@@ -1,0 +1,23 @@
+1)checkout
+
+to undo the modifications for a paarticular file:git checkout file name
+>to undo the modifications for multople files: git checkout f1 f2 f3...
+>to undo the modifications for all the files :git checkout 
+>to undo the modifications for a file (alternate command): git restore file name
+
+2)reset
+
+>to unstage a particular file :git reset file name
+>to unstage multiple files:git eest f1f2f3...
+>to iunstage all the files :git rest.
+>alternate command reset:git restore --staged file name
+ for soft: git reset --soft <previous commit id>
+for hard :git reset --hard <previous commit id>
+ 
+
+3)revert
+>it is also use for undoing the changes modifications if we are using revert command then it
+will undo the modifications
+ git pull master  
+
+
