@@ -1,0 +1,27 @@
+1. git tag
+
+2. git tag tag_name
+
+3. git tag v1.0
+
+4. git tag -a version_name -m "Description"
+
+5. git tag -a v1.0 -m "First version"
+
+6. git tag -l "version_name"
+
+7. git tag -l "v1.0"
+
+8. git push origin tag_name
+
+9. git push origin v1.0
+
+10. git pull origin --tags
+
+11. git tag -d tag_name
+
+12. git tag -d v1.0
+
+13. git push origin --delete tag tag_name
+
+14. git push origin --delete tag v1.0
