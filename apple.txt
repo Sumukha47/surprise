@@ -1,0 +1,7 @@
+1- initialization -- git init
+2- configuration -- git config user.name "user_name" ; git config user.email "user_email"
+3- adding files  -- git add .
+4- commiting     -- git commit -m "MESSAGE"
+5- ESTABLISHING  -- git remote add origin URL
+6- PUSH          -- git push origin master/main
+7- PULL          -- git pull origin master/main
