@@ -1,0 +1,20 @@
+1.Checkout
+==========
+to restore the file from commit 
+to undo the modifications for a particular file ->git checkout file_name
+to undo the modifications for multiple files -> git checkout file_1 file_2 ...
+to indo the modifications for all the files -> git checkout .
+(alt command) git reestore file_name
+2.Reset
+=======
+undo the changes in the staging area we use restore 
+it will move the efiles from local repository to staging area 
+to unstage a particular file -> file reset file_name 
+to unstage multiple files git reset file_1 file_2 ...
+to unstage all files -> git reset .
+(alt command)->git restore --staged file_name
+3.Revert
+=========
+it is also used to undo the changes or modifications 
+if we are using revert command , then it will also undo the modifications associated to specific commit
+command -> git revert <some_commit_id>

@@ -1,0 +1,10 @@
+Commands of tag:
+
+to list the tags -> git tag
+to create tag -> git tag tag_name
+	      -> git tag -a tag_name -m "Description"
+to list the tags which matches a particular pattern -> git tag -l "name"
+to push particular tag -> git push alias_name tag_name 
+to pull all the tags at once -> git pull alias_name --tags
+to delete tags locally -> git tag -d tag_name
+to delete the tags remotely -> git push origin --delete tag tag_name
