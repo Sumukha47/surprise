@@ -1,0 +1,95 @@
+1) CHECKOUT
+2) RESET
+3) REVERT
+
+> To restore files from the commit:
+
+> To undo the modifications for a particular file:
+git checkout file_name
+
+> To undo the modifications for multiple files:
+git checkout f1 f2 f3 ....
+
+> To undo the modifications for all the files:
+git checkout .
+
+> To undo the modifications for a file (Alternate command):
+git restore file_name
+
+
+2) RESET:
+
+If we need to undo the changes in the staging area then we can use reset command.
+
+> Whenever we are using reset, it will move the files from staging area to the working directory.
+
+Commands:
+
+> To unstage a particular file:
+git reset file_name
+
+> To unstage multiple files:
+git reset f1 f2 f3 ....
+
+> To unstage all the files:
+git reset .
+
+> Alternate command for reset:
+git restore --staged file_name
+
+
+Flags to be used along reset command:
+
+> --soft:
+Undo the commits
+
+> --hard:
+Undo the commits
+
+> To undo the commits, i.e. move the files from local repository to the staging area.
+
+
+--soft:
+
+To remove any particular commit, we need to use the commit ID which comes right before the commit we need to delete.
+
+git reset --soft <previous commit ID>
+
+
+Example:
+
+git log --oneline
+
+2586b1k    "added a1.txt" (HEAD -> Master)
+2431y9gd   "added a2.txt"
+87683jkm   "added a3.txt"
+
+git reset --soft 2431y9gd
+
+> It will remove the commit ID which is present after the specified commit ID.
+
+> It will move the file/changes associated to the commit to staging area.
+
+> It won't affect the modifications done within the file.
+
+
+--hard:
+
+git reset --hard <previous commit ID>
+
+> It will remove the commit which is present after the specified commit ID.
+
+> Whatever the changes are associated to the commit will also be removed, i.e. it will be deleted.
+
+
+3) REVERT:
+
+It is also used for undoing the changes / modifications.
+
+> If we are using revert command, then it will undo the modifications associated to the specified commit.
+
+git revert <same_commit_ID>
+
+> It will undo the changes associated with the specified commit ID. But it will not remove the commit message from the commit history.
+
+> We will get one extra commit which will tell that the particular commit has been reverted.
